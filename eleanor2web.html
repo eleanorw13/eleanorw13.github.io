@@ -1,55 +1,20 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <style>
-body{
-    width:auto;
-    height:auto;
-}
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-  
-}
-
-li {
-  float:left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #ffad33 orange on hover */
-li a:hover {
-  background-color: #ffad33;
-}
-
-input.submitbutton {
-    background-color:#ffad33;
-}
-
-        
-</style>
+<link rel="stylesheet" href="style.css">
 
 <script> 
-function myFunc1(){
+function myTextFunction(){
     
-   myText = "Hello World";
+   document.getElementById('MyText').innerHTML = "Hello World!";
+
 }
 
 </script>
  
 </header>
 <body>
+    
     <ul>
         <li><a href="">HOME</a></li>
         <li><a href="https://www.qcc.cuny.edu/" target="_blank">QCC</a></li>
@@ -59,17 +24,19 @@ function myFunc1(){
         <li><a href="mailto:eleanor_wai@msn.com">CONTACT</a></li>
     
     </ul>
-
-    <p align="center"><iframe src="eleanor1webpage.html" height="500" width="800"></iframe> </p>
+    <h1>Assignment 2</h1>
+    <p align="center"><iframe src="eleanor1webpage.html"></iframe> </p>
 
     <p align="center"> <img src="photo2.jpg" height="350" width="500"></p>
 
     
     <form align="center" id="myForm" action="eleanor2web.html" method="post">
     <textarea id="MyText" name="MyText" rows="8" cols="50"></textarea><br>
-    <input class="submitbutton" type="submit" value="Submit">
-    <button class="submitbutton" onclick="document.getElementById('MyText').innerHTML = myFunc1"></button>
+    
+    
     </form>
+
+    <center><button class="submitbutton" onclick="myTextFunction()">Submit Button </button></center>
     
 </body>
 

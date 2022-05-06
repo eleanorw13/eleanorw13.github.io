@@ -1,0 +1,65 @@
+/*
+Eleanor StyleSheet
+*/
+
+body{
+    width:auto;
+    height:auto;
+    background-color: #999999; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+iframe{
+    height: 300px;
+    width:500px;
+    
+    
+}
+button{
+    color: #ffad33;
+    background-color: #000000;
+    border-radius: 5px;
+}
+h1{
+    color: #ffad33;
+    background-color: black;
+    text-align: center;
+    border: 1px dashed hotpink;
+    
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #ffad33 orange on hover */
+li a:hover {
+  background-color: #ffad33;
+}
+
+input.submitbutton {
+    background-color:#ffad33;
+
+}
+
+        
