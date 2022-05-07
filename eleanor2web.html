@@ -10,18 +10,18 @@ function myTextFunction(){
 
 }
 
-function my1Picture(){
-    
-   
+function my1Picture(){  
     alert("First Picture");
  }
- 
+ function my2Picture(){  
+    alert("Second Picture");
+ }
 
 </script>
  
 </header>
 <body>
-    
+ 
     <ul>
         <li><a href="">HOME</a></li>
         <li><a href="https://www.qcc.cuny.edu/" target="_blank">QCC</a></li>
@@ -31,13 +31,14 @@ function my1Picture(){
         <li><a href="mailto:eleanor_wai@msn.com">CONTACT</a></li>
     
     </ul>
+
     <h1>Assignment 2</h1>
+
+<div class="container1">   
+    <div class="sectiontop">
     <p align="center"><iframe src="eleanor1webpage.html" title="Assignment 1"></iframe> </p>
 
-    <p align="center"> <img src="photo2.jpg" height="350" width="500"></p>
-
-    
-    <form align="center" id="myForm" action="" method="get"> </form>
+<p align="center"> <img src="photo2.jpg" height="350" width="500"></p>
         
     <p align="center">
     <textarea id="MyText" name="MyText" rows="3" cols="50">
@@ -48,35 +49,35 @@ function my1Picture(){
     <button type="button" value="submit" onclick="myTextFunction()">Submit Button </button>
     <button type="reset" value="reset"> Clear Button </button>
     </p>
+   
+    </div>
 
-
-<div class="container1">
     <div class="section1">
         <h2>First Picture</h2>
-        <p><img src="photo1.jpg" height="150" width="150"> </p>
-        <p>picture 1</p>
-        <p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p>
+        <p align="center"><img src="photo1.jpg" height="150" width="150"> </p>
+        <p align="center">picture 1</p>
+        <p align="center"> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p>
     </div>
     <div class="section2">
         <h2>Second Picture</h2>
-        <p><img src="photo2.jpg" height="150" width="150"></p>
-        <p>picture 2 </p>
-        <p><p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p></p>
+        <p align="center"><img src="photo2.jpg" height="150" width="150"></p>
+        <p align="center"> picture 2 </p>
+        <p align="center"> <button type="button" value="submit" onclick="my2Picture()">Submit Button </button></p>
     </div>
     <div class="section3">
         <h2>Third Picture</h2>
-        <p><img src="background2.jpg" height="150" width="150"> </p>
-        <p>picture 3</p>
-        <p><p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p></p>
+        <p align="center"><img src="background2.jpg" height="150" width="150"> </p>
+        <p align="center">picture 3</p>
+        <p align="center"><button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p>
     </div>
-</div>
 
-<br>
-  
+    
+</div>
 
 </body>
 
 <footer>
-    <p align="center"> Eleanor Wai - 2022 - Assignment 2 </p>
+    <p> Eleanor Wai - 2022 - Assignment 2 </p>
 </footer>
+</div>
 </html>

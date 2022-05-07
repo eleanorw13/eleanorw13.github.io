@@ -39,8 +39,8 @@ button{
     color: #ffad33;
     background-color: #000000;
     border-radius: 5px;
-    height:85px;
-    width:85px;
+    height:50px;
+    width:55px;
 }
 h1{
     color: #ffad33;
@@ -48,6 +48,13 @@ h1{
     text-align: center;
     border: 1px dashed hotpink;
     
+}
+
+h2{
+    color:#ffffff;
+    font-style: normal;
+    font-family: fantasy;
+    text-align: center;
 }
  
 ul {
@@ -91,13 +98,22 @@ footer{
 
 div.container1{
 
-    width:850px;
-    height: 380px;
-    border: 5px solid palevioletred;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    width:auto;
+    height: auto;
+    border: 1px solid palevioletred;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+div.sectiontop{
+    border: 15px solid red;
+    border-width: 1px;
+    height: auto;
+    width:auto;
     
 }
 
@@ -132,4 +148,12 @@ div.section3{
     padding: 5px;
     height: 350px;
     width:250px;
+}
+
+div.sectionb{
+    border: 15px solid red;
+    border-width: 1px;
+    height: auto;
+    width:auto;
+
 }
