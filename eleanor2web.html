@@ -10,6 +10,13 @@ function myTextFunction(){
 
 }
 
+function my1Picture(){
+    
+   
+    alert("First Picture");
+ }
+ 
+
 </script>
  
 </header>
@@ -25,19 +32,48 @@ function myTextFunction(){
     
     </ul>
     <h1>Assignment 2</h1>
-    <p align="center"><iframe src="eleanor1webpage.html"></iframe> </p>
+    <p align="center"><iframe src="eleanor1webpage.html" title="Assignment 1"></iframe> </p>
 
     <p align="center"> <img src="photo2.jpg" height="350" width="500"></p>
 
     
-    <form align="center" id="myForm" action="eleanor2web.html" method="post">
-    <textarea id="MyText" name="MyText" rows="8" cols="50"></textarea><br>
-    
-    
-    </form>
+    <form align="center" id="myForm" action="" method="get"> </form>
+        
+    <p align="center">
+    <textarea id="MyText" name="MyText" rows="3" cols="50">
+            
+    </textarea><br>
+   
+  
+    <button type="button" value="submit" onclick="myTextFunction()">Submit Button </button>
+    <button type="reset" value="reset"> Clear Button </button>
+    </p>
 
-    <center><button class="submitbutton" onclick="myTextFunction()">Submit Button </button></center>
-    
+
+<div class="container1">
+    <div class="section1">
+        <h2>First Picture</h2>
+        <p><img src="photo1.jpg" height="150" width="150"> </p>
+        <p>picture 1</p>
+        <p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p>
+    </div>
+    <div class="section2">
+        <h2>Second Picture</h2>
+        <p><img src="photo2.jpg" height="150" width="150"></p>
+        <p>picture 2 </p>
+        <p><p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p></p>
+    </div>
+    <div class="section3">
+        <h2>Third Picture</h2>
+        <p><img src="background2.jpg" height="150" width="150"> </p>
+        <p>picture 3</p>
+        <p><p> <button type="button" value="submit" onclick="my1Picture()">Submit Button </button></p></p>
+    </div>
+</div>
+
+<br>
+  
+
 </body>
 
 <footer>

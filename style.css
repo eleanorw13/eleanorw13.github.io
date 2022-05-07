@@ -5,15 +5,33 @@ Eleanor StyleSheet
 body{
     width:auto;
     height:auto;
-    background-color: #999999; 
+    background-color: gray;
+    background-size: 800px 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    height:850;
+    width:550;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
 
 }
 
 iframe{
     height: 300px;
-    width:500px;
+    width:800px;
+    background-color: lightpink;
+    border-color: black;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
     
     
 }
@@ -21,6 +39,8 @@ button{
     color: #ffad33;
     background-color: #000000;
     border-radius: 5px;
+    height:85px;
+    width:85px;
 }
 h1{
     color: #ffad33;
@@ -62,4 +82,54 @@ input.submitbutton {
 
 }
 
-        
+footer{
+
+    font-size: 16px;
+    font-family: cursive;
+    color: pink;
+}
+
+div.container1{
+
+    width:850px;
+    height: 380px;
+    border: 5px solid palevioletred;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+
+div.section1{
+    border: 5px solid palevioletred;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    padding-right: 5px;
+    height: 350px;
+    width:250px;
+    
+}
+div.section2{
+    border: 5px solid palevioletred;
+    border-width: 1px;
+    margin: 10px;
+    float: left;
+    padding-right: 5px;
+    padding: 5px;
+    height: 350px;
+    width:250px;
+    
+}
+div.section3{
+    border: 5px solid palevioletred;
+    border-width: 1px;
+    margin: 10px;
+    float: left;
+    padding-right: 5px;
+    padding: 5px;
+    height: 350px;
+    width:250px;
+}
