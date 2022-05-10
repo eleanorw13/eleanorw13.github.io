@@ -1,0 +1,116 @@
+/*
+Eleanor StyleSheet
+*/
+
+body{
+    width:auto;
+    height:auto;
+    background-size: 800px 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:cursive;
+    font-size: 14px;
+    height:850;
+    width:550;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+
+}
+
+button{
+    color:#ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    height:50px;
+    width:155px;
+}
+h1{
+    color:#ffffff;
+    background-color: #333;
+    text-align: center;
+    border: 1px dashed red;
+    font-family: cursive;
+    padding: 5px;
+    
+}
+
+h2{
+    color:#ffffff;
+    font-style: normal;
+    font-family: fantasy;
+    text-align: center;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  align-items: center;
+  font-family:cursive;
+  
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #ffad33 orange on hover */
+li a:hover {
+  background-color:;
+}
+
+input.submitbutton {
+    background-color:#ffad33;
+
+}
+
+p.description{
+    font-size: larger;
+    color:#ffffff;
+    font-family: cursive;
+    padding: 5px;
+}
+
+div.container{
+
+    display:flex;
+    border: 0px solid palevioletred; 
+    flex-direction:row;
+    
+}
+
+@media (max-width: 850px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+div.section{
+    
+    background-color:#333;
+    border: 0px solid palevioletred;
+    margin: 5px;
+    padding: 10px;
+    text-align:center;
+    
+}
+img{
+    height:400px;
+    width:400px;
+}
+
+
