@@ -1,3 +1,3 @@
 # qccsoftwareengineerbootcamp
 ACE Upskilling Software Engineering
-Hui-Yin Hsu | Computer Technology 
+Eleanor Wai | Computer Technology 
