@@ -8,7 +8,6 @@ body{
     background-size: 800px 850px;
     background-color: #333;
     background-repeat: no-repeat;
-    background-size: cover;
     font-family:cursive;
     font-size: 14px;
     height:850;
@@ -100,8 +99,8 @@ div.container{
 
     display:flex;
     border: 0px solid palevioletred; 
-    flex-direction:row;
-    border: radius 350px;
+    flex-direction:column-reverse;
+    
     
 }
 
