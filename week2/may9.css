@@ -1,0 +1,200 @@
+.menu2{
+background-color: black;
+height:68px;
+/* position: fixed; */
+}
+
+
+.menu2 li {
+display: inline;
+width:23%;
+float:left;
+}
+
+
+.menu2 li a {
+text-decoration: none;
+color:white;
+
+display: inline-block;
+padding: 25px 20%;
+
+}
+
+
+.menu2 li a:hover {
+  background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+.menu{
+
+list-style-type: none;
+width:25%;
+/* background-color: lightblue; */
+text-align: center;
+
+}
+
+
+.menu li {
+width:100%;
+background-color: green;
+}
+
+
+.menu li a {
+text-decoration: none;
+display: inline-block;
+height:25%;
+width:60%;
+padding: 12px 20%;
+
+}
+
+
+
+
+.menu li a:hover {
+  background-color: orange;
+}
+
+
+
+
+
+
+
+/* hero image CSS: */
+
+.heroimagebox{
+  background-color: orange;
+  height:100vh;
+  position:relative;
+}
+
+
+.heroimagebox img{
+  width:100%;
+  height:100%;
+}
+
+
+.messagebox{
+  width:30%;
+  padding: 4%;
+  right:4%;
+  text-align: center;
+  background-color: rgba(98, 95, 99,0.5);
+  top:30%;
+  position: absolute;
+}
+
+
+
+
+/* flex box */
+
+.flexbox{
+background-color: lightpink;
+display:flex;
+height:400px;
+
+
+flex-wrap: wrap;/*if child level blocks need to flow to differnt rows when screen size is small*/
+flex-direction: column;
+flex-flow: column wrap;
+
+justify-content:center; /*only refer to the main axis*/
+align-items: center; /*only refer to the cross axis*/
+
+
+align-content: center;/*Space between rows when blocks float*/
+
+}
+
+
+
+
+.sub1{
+  border:2px solid red;
+  width: 30%;
+  flex:;
+  align-self: ;
+  order:;
+
+}
+
+.sub2{
+  border:2px solid blue;
+  height:100px;
+
+}
+
+
+.sub3{
+  background-color: orange;
+    width: 30px;
+}
+
+.sub4{
+  background-color: lightblue;
+ height: 10%;
+ width:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* older way */
+.row{
+  background-color: lightpink;
+  height: 300px;
+  width:80%;
+  box-sizing: border-box;
+  margin-bottom:10%;
+}
+
+.newline{
+  background-color: gray;
+  height:2px;
+
+}
+
+.box{
+  box-sizing: border-box;
+  border:4px solid blue;
+  background-color: red;
+  height: 200px;
+  margin: 1%;
+  width:30%;
+  float: left;
+  text-align: center;
+  /* margin: auto; */
+ font-size: 2vw;
+}
+
+hr{
+  margin-top: 100px;}

@@ -1,0 +1,70 @@
+@keyframes spintext {
+    0%{}
+    10%{}
+    25%{}
+    75%{}
+    85%{}
+    100%{}
+  }
+
+
+.animationbox{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:spintext;
+}
+
+
+@keyframes slideshow {
+    0%{margin-left:0%}
+    33%{margin-left:-100%}
+    50%{margin-left:-200%}
+    75%{margin-left:-300%}
+    100%{margin-left:-400%}
+  }
+
+.stage{
+    border:3px solid red;
+    height: 300px;
+    width: 300px;
+    padding-top: 0;
+    overflow: hidden;
+}
+
+.slide{
+    width: 25%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    float:left;
+
+}
+.slidewrapper{
+width:400%;
+height:100%;
+animation:slideshow 10s;
+
+
+}
+
+.slide1{
+    background-color: orange;
+    background-image: url('images/photo1.jpg');
+
+}
+.slide2{
+    background-color: green;
+    background-image: url('images/photo2.jpg');
+
+}
+.slide3{
+    background-color: blue;
+    background-image: url('images/background.jpg');
+
+}
+
+.slide4{
+    background-color: purple;
+    background-image: url('images/background2.jpg');
+}
