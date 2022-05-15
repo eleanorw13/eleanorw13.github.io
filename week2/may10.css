@@ -1,0 +1,157 @@
+/* body {
+ background-color: lightpink;
+} */
+body{
+  /* background-image: url('mountain.jpg'); */
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:100vh; */
+}
+
+
+
+.stage{
+  border: 4px solid red;
+  box-sizing: border-box;
+  height:400px;
+ width:80%;
+ overflow: hidden;
+ font-size: 80px;
+ text-align: center;
+
+}
+
+
+.slidewrapper{
+width:400%;
+height:100%;
+animation: slideshow 4s;
+
+}
+
+.slide {
+width:25%;
+height: 100%;
+margin-top: 0;
+margin-bottom: 0;
+float:left;
+
+
+}
+
+
+@keyframes slideshow {
+  0% { margin-left: 0%}
+
+  25%{margin-left: -100%}
+
+  50%{margin-left: -200%}
+
+  75%{margin-left: -300%}
+
+  100%{margin-left: -300%}
+
+
+
+}
+
+
+
+
+
+
+.slide1{
+  background-color: orange;
+}
+
+
+.slide2{
+  background-color: green;
+}
+
+
+.slide3{
+  background-color: powderblue;
+}
+
+.slide4{
+  background-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.animbox{
+border: 3px solid red;
+height:600px;
+/* width:80%;
+margin: auto; */
+position: relative;
+background-image: url('mountain.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+.animbox >img{
+position: absolute;
+bottom: 0;
+animation-name: movebus;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-iteration-count: infinite;
+
+
+}
+
+
+.animbox >h1{
+position: absolute;
+bottom: 30%;
+animation-name: movebus;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: 2;
+animation-iteration-count: infinite;
+
+
+
+}
+
+
+.animbox >h2{
+position: absolute;
+/* bottom: 60%;
+left:10%; */
+animation: spin 3s 3s infinite;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg); left:10%; bottom: 60%;}
+  30%{transform: rotate(-130deg);left:20%; bottom: 80%;}
+  60%{transform: rotate(90deg);left:30%; bottom: 30%;}
+  61%{transform: rotate(-90deg);left:30%; bottom: 30%;}
+  62%{transform: rotate(90deg);left:30%; bottom: 30%;}
+  100%{transform: rotate(360deg);left:50%; bottom: 60%;}
+}
+
+
+
+@keyframes movebus {
+0% {left:0%;bottom: 0;  width:10%;}
+
+50% {left:30%; bottom: 50%; transform: rotate(-90deg);  width:30%;}
+
+
+100% {left:72%;bottom:0; width:10%;}
+
+}

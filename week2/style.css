@@ -1,18 +1,26 @@
 @keyframes spintext {
-    0%{}
-    10%{}
-    25%{}
-    75%{}
-    85%{}
-    100%{}
+    from {
+        margin-left: 10px;
+        width:10px;
+        height: 500px;
+      }
+    
+      to {
+        margin-right: 500px;
+        width: 900px;
+      }
   }
 
 
 .animationbox{
+  
     width: 100px;
     height: 100px;
     background-color: red;
     animation-name:spintext;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 
@@ -43,7 +51,7 @@
 .slidewrapper{
 width:400%;
 height:100%;
-animation:slideshow 10s;
+animation:slideshow 15s;
 
 
 }

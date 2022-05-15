@@ -1,0 +1,103 @@
+body{
+    background-color:lightblue;
+}
+
+.container{
+
+    border:0px solid red;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+}
+
+.item{
+    border: 3px dotted darkgray;
+    height:220px;
+    width:300px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.item img{
+    height:75px;
+    width:145px;
+   
+}
+.item a{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+p{
+    align-content: center;
+}
+
+.linkModal{
+    width:350px;
+    text-align:center;
+    background-color: orange;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+}
+.linkModal a{
+    text-decoration: none;
+    background-color: black;
+    
+}
+
+.linkModal:hover{
+    background-color: brown;
+}
+.modal{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    background-color: aquamarine;
+    width: 350px;
+    height: 350px;
+   
+    
+
+}
+.modal:target{
+    opacity: 1;
+    pointer-events:all;
+}
+.modalmsg{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    background: -o-linear-gradient(to top right, black, white);
+    
+}
+
+.closebutton{
+    float:right;
+    width:150px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px ;
+    background-color: lightgray;
+}
+.closebutton:hover{
+     background-color: beige;
+}

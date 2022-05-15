@@ -99,12 +99,12 @@ div.container{
 
     display:flex;
     border: 0px solid palevioletred; 
-    flex-direction:column-reverse;
+    flex-direction:row;
     
     
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
     .flex-container {
       flex-direction: column;
     }
