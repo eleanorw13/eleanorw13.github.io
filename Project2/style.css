@@ -88,6 +88,11 @@ p{
     background: -o-linear-gradient(to top right, black, white);
     
 }
+.msgtext h3{
+    padding:20px;
+    background-color: black;
+
+}
 
 .closebutton{
     float:right;
