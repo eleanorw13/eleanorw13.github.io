@@ -5,120 +5,78 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap-utilities.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Eleanor Wai Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Eleanor Wai Assignment</title>
   </head>
   <body>
 
-    <center><h1>Pizza Store</h1></center>
-  
-<div class="container">
-   
-      <div class="row">
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+    </ul>
 
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">Mediterranean</p>
-                <img src="images/pizza1.jpg">
-                 <br>
-                 <p align="center"><a href="#1modal" class="linkModal">Buy Now</a>
-                 </p> 
-            </div>
-         
-        </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="orderpizza">
 
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">Italian</p>
-                <img src="images/pizza1.jpg">
-                 <br>
+                <a href="#openmodal" class="pizzabutton">Order Pizza</a>
             </div>
-            <p align="center"><a href="#openmodal" class="linkModal">Buy Now</a>
-            </p> 
-        </div>
-
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">French</p>
-                <img src="images/pizza1.jpg">
-                 <br>
-            </div>
-            <p align="center"><a href="#openmodal" class="linkModal">Buy Now</a>
-            </p> 
         
-        </div>
-     
+            <div id="openmodal" class="modalwindow">
+                <div class="msgtext">
+                 <h3>Pizza Order</h3>
+                 <p>Build Your Order
+                   <img src="images/cock1.jpg" alt="modal image"/>
+                   <ul><li>Hand Toss</li>
+                    <li>Handmade Pan</li>
+                  <li>Thin Crust</li></ul>
+                 </p>
+                
+                 <a href="#" class="modalclose">Close Modal</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            
+      <div class="orderdrink">
+
+        <a href="#openmodaldrink" class="drinkbutton">Order Drinks</a>
     </div>
 
-
-    <div class="row">
-
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">Mediterranean</p>
-                <img src="images/pizza1.jpg">
-                 <br>
-            </div>
-            <p align="center"><a href="#openmodal" class="linkModal">Buy Now</a>
-            </p> 
-        </div>
-
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">Italian</p>
-                <img src="images/pizza1.jpg">
-                 <br>
-            </div>
-            <p align="center"><a href="#openmodal" class="linkModal">Buy Now</a>
-            </p> 
-        </div>
-
-        <div class="col">
-            <div class="item">
-                <h1>Pizza</h1>
-                <p align="center">French</p>
-                <img src="images/pizza1.jpg">
-                 <br>
-            </div>
-            <p align="center"><a href="#openmodal" class="linkModal">Buy Now</a>
-            </p> 
+    <div id="openmodaldrink" class="modalwindow">
+        <div class="msgtext">
+         <h3>Beverage Order</h3>
+         <p>Build Your Order
+           <img src="images/cock1.jpg" alt="modal image"/>
+           <ul><li>Pepsi</li>
+            <li>Coke</li>
+          <li>Ice Tea</li></ul>
+         </p>
         
+         <a href="#" class="modalclose">Close Modal</a>
         </div>
-
+      </div>
+          </div>
+          <div class="col">
+            <!-- Column -->
+          </div>
+        </div>
+      </div>
+        
      
-     
-    </div>
-     
-</div>
+
+ 
 
 
-<div id="1modal" class="modal">
-   
-    <h1>Hello World</h1>
-    <p class="modalmsg">This is my modal box</p>
-    <a href="#1modal" class="closebutton">Close</a>
-    
-</div>
-   
-   
+
+
+
   
-
-
-
-
-
 
   </body>
-  <footer>
-      <center>Eleanor Wai 2022</center>
-  </footer>
+
 </html>

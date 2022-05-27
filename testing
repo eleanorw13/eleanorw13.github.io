@@ -1,0 +1,40 @@
+CREATE TABLE Artist(
+ArtistID INT,
+ArtistFullName VARCHAR(60),
+ArtistDOB DATE,
+PosterInStock BOOLEAN
+);
+
+insert into artist(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+values('10001','Jennifer Warnes','1947-03-03','False');
+
+insert into artist(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+values('10002','Joni Mitchell','1943-11-07','False');
+
+insert into artist(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+values('10003','Bing Crosby','1904-05-02','True');
+
+insert into artist(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+values('10006','Patsy Cline','1932-09-08','True');
+
+insert into artist(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+values('10008','Placido Domingo','1941-01-21','False');
+
+select * from artist;
+
+CREATE TABLE CompactDiscs(
+    CompactDiscID INT,
+    CDTitle VARCHAR(60),
+    LabelID INT
+);
+
+CREATE TABLE CDLabels(
+ LabelID INT,
+ CompanyName VARCHAR(60)
+);
+
+CREATE TABLE MusicTypes(
+ TypeID INT,
+ TypeName VARCHAR(20)
+);
+

@@ -1,0 +1,101 @@
+/*
+Eleanor StyleSheet
+*/
+
+body{
+    background-color: #333;
+    font-family:cursive;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu{
+  background-color: black;
+  height:110px;
+
+}
+.menu li {
+  display: inline;
+  width:150px;
+  float:left;
+  }
+  
+  
+  .menu li a {
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 55px 55px;
+  list-style-type: none;
+  font-family:cursive;
+  
+  }
+  
+  
+  .menu li a:hover {
+    background-color: orange;
+    height: 110px;
+  }
+
+
+.backimage{
+    width:500px;
+    height:500px;
+    position: relative;
+    margin:auto;
+
+  }
+  .birdimage{
+    width:50px;
+    height:70px;
+    position:absolute;
+    bottom:0px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count:3;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+  }
+
+@keyframes slide{
+from {transform: translateX(0px);}
+to{transform: translateX(500px);}
+
+  }
+
+  .suncloud{
+      width:150px;
+      height:150px;
+      position:absolute;
+      top:0px;
+      animation-name: cloudsflowing;
+      animation-duration: 30s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+
+  }
+  .cloud1{
+      width:150px;
+      height:150px;
+      position:absolute;
+      top:20px;
+      animation: cloudsflowing 10s linear infinite;
+
+  }
+  .cloud2{
+
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:60px;
+    animation: cloudsflowing 6s linear infinite;
+
+  }
+
+  @keyframes cloudsflowing{
+      from{transform: translatex(0); opacity: 1;}
+      to{transform: translatex(500px); opacity: 0;}
+  }

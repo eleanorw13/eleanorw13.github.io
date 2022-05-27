@@ -67,3 +67,21 @@ document.getElementById('convert_to_f').innerHTML = "C to F temperature is" + Ce
 
 
 
+function retireAge(personAge,birthyear){
+ 
+   personAge = 2022-birthyear;
+
+   if ( (personAge) > 65 ){
+
+       console.log('happy retirement');
+   }
+   else{
+
+       yeartoretire = 65 - personAge;
+       console.log('You can retire in' + yeartoretire + 'years');
+     
+   }
+   
+
+}
+

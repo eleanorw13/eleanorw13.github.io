@@ -1,108 +1,163 @@
+/*
+Eleanor StyleSheet
+*/
+
 body{
-    background-color:lightblue;
+    background-color:aliceblue;
+    font-family:cursive;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.container{
-
-    border:0px solid red;
-    background-color: lightgray;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 40px;
-}
-
-.item{
-    border: 3px dotted darkgray;
-    height:220px;
-    width:300px;
-    margin-left: 15px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-right: 15px;
+.backimage{
+    border:solid black;
+    height:550px;
+    border-radius: 30px;
     padding: 20px;
-    border-radius: 20px;
-    
-}
-.item img{
-    height:75px;
-    width:145px;
-   
-}
-.item a{
-    font-size: 30px;
-    padding: 20px;
-    border-radius: 20px;
-    
-}
-p{
-    align-content: center;
+    background-image: url('images/4.jpg');
+    position: relative;
+    margin:auto;
 }
 
-.linkModal{
-    width:350px;
+.pizzaimage{
+    width:120px;
+    height:210px;
+    position:absolute;
+    bottom:0px;
+    background-image: url('images/pepsi1.jpeg');
+    animation-name: slidepizza;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+@keyframes slidepizza{
+    from {transform: translateX(0px); opacity: 1;}
+    to{transform: translateX(800px); opacity: 0;}
+    
+      }
+
+.menu{
+    background-color: black;
+    height:110px;
+
+}
+
+.menu li {
+  display: inline;
+  width:150px;
+  float:left;
+  }
+  
+  
+  .menu li a {
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 55px 55px;
+  list-style-type: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  
+  .menu li a:hover {
+    background-color: orange;
+    height: 110px;
+    display: block;
+    
+  }
+
+.orderpizza{
+
+     border: solid black;
+     height:200px;
+     width:250px;
+     border-radius: 30px;
+     background-image: url('images/pizza2.jpeg');
+
+}
+
+.orderdrink{
+
+    border: solid black;
+    height:200px;
+    width:250px;
+    border-radius: 30px;
+    background-image: url('images/pepsi1.jpeg');
+
+}
+
+  .pizzabutton{
     text-align:center;
     background-color: orange;
-    font-size: 20px;
-    padding: 5px;
+    padding:10px;
     border-radius: 20px;
     text-decoration: none;
+    font-size: 20px;
     
-    
-}
-.linkModal a{
+  }
+
+  .drinkbutton{
+    text-align:center;
+    background-color: orange;
+    padding:10px;
+    border-radius: 20px;
     text-decoration: none;
-    background-color: black;
+    font-size: 20px;
     
-}
+  }
 
-.linkModal:hover{
-    background-color: brown;
-}
-.modal{
+  .modalwindow{
     position:fixed;
-    top:0;
-    right:0;
-    bottom: 0;
-    left:0;
-    background-color: aquamarine;
-    width: 350px;
-    height: 350px;
-   
-    
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background-color:grey;
+    opacity: 0;
+    pointer-events:none;
+  }
 
-}
-.modal:target{
+  .modalwindow:target{
     opacity: 1;
-    pointer-events:all;
-}
-.modalmsg{
-    position: relative;
-    width: 700px;
-    height: 500px;
+    pointer-events: auto;
+    transition: ease-in 1s;
+  }
+
+  .msgtext{
+    position:relative;
+    width:500px;
+    height:500px;
     border-radius: 10px;
     margin: auto;
     margin-top: 200px;
-    background: -o-linear-gradient(to top right, black, white);
-    
-}
-.msgtext h3{
-    padding:20px;
+    background: linear-gradient(to top right, #00d9ff, rgb(185, 178, 178));
+  }
+  .msgtext h3{
+    padding: 20px;
     background-color: black;
-
-}
-
-.closebutton{
-    float:right;
-    width:150px;
-    line-height: 1;
+    color:white;
+  }
+  .msgtext p{
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+  
+  }
+  .msgtext img{
+    width:50px;
+    height:60px;
+    margin-left:50px ;
+  }
+  .modalclose{
+    color:black;
+    padding: 12px;
+    font-weight: bold;
     text-align: center;
-    cursor: pointer;
-    border-radius: 20px ;
-    background-color: lightgray;
-}
-.closebutton:hover{
-     background-color: beige;
-}
+    text-decoration: none;
+  }

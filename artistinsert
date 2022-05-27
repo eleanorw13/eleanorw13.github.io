@@ -1,0 +1,2 @@
+INSERT INTO Artists(ArtistID, ArtistFullName, ArtistDOB, PosterInStock)
+VALUES('10001','Jennifer Warnes','1947-03-03','False');

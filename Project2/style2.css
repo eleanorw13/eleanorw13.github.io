@@ -1,0 +1,207 @@
+/*
+Eleanor StyleSheet
+*/
+
+body{
+    background-color: #333;
+    font-family:cursive;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu{
+  background-color: black;
+  height:110px;
+
+}
+.menu li {
+  display: inline;
+  width:150px;
+  float:left;
+  }
+  
+  
+  .menu li a {
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 55px 55px;
+  list-style-type: none;
+  font-family:cursive;
+  
+  }
+  
+  
+  .menu li a:hover {
+    background-color: orange;
+    height: 110px;
+  }
+
+  .linkmodal{
+    text-align:center;
+    background-color: orange;
+    padding:10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.modalwindow{
+  position:fixed;
+  top:0px;
+  bottom: 0px;
+  left:0px;
+  right: 0px;
+  background-color: rgba(160, 80, 160, 0.8);
+  opacity: 0;
+  pointer-events:none;
+}
+.modalwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.msgtext{
+  position:relative;
+  width:700px;
+  height:500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 200px;
+  background: linear-gradient(to top right, black, white);
+}
+.msgtext h3{
+  padding: 20px;
+  background-color: black;
+  color:white;
+}
+.msgtext p{
+  padding: 20px;
+  text-align: justify;
+  background-color: white;
+
+}
+.msgtext img{
+  width:50px;
+  height:60px;
+  margin-left:50px ;
+}
+.modalclose{
+  color:#00d9ff;
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+button{
+    color:#ffffff;
+    background-color: #000000;
+    border-radius: 20px;
+    height:50px;
+    width:155px;
+}
+h1{
+    color:#ffffff;
+    background-color: #333;
+    text-align: center;
+    border: 0px dashed red;
+    font-family: cursive;
+    padding: 1px;
+    
+}
+
+h2{
+    color:#ffffff;
+    font-style: normal;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+div.container{
+
+    display:flex;
+    border: 0px solid palevioletred; 
+    flex-direction:row;  
+}
+
+@media (max-width: 950px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+.stage{
+  border: 1px solid red;
+  box-sizing: border-box;
+  height:650px;
+  width:900px;
+  overflow: hidden;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+
+.slidewrapper{
+  border: 1px solid red;
+  width:800px;
+  height:180px;
+  animation-name: slideshow;
+  animation-duration: 4s;
+  }
+  
+  .slide {
+  width:580px;
+  height:180px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  
+  }
+
+  
+    @keyframes slideshow {
+      from {margin-left: 0%}
+  to {margin-left: 170%}
+  
+  
+  
+  }
+  
+  .slide1{
+    
+    background-image: url("images/parrot.jpg");
+  }
+  
+  
+  .slide2{
+    
+    background-image: url("images/cockateil.jpg");
+  }
+  
+  
+  .slide3{
+    background-image: url("images/parrot.jpg");
+  }
+  
+  .slide4{
+    background-image: url("images/cock1.jpg");
+  }
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+
+
