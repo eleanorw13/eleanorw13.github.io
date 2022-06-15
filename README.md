@@ -1,3 +1,3 @@
-# qccsoftwareengineerbootcamp Projects
+# My software Projects
 Software Engineering 
 Eleanor Wai 
